@@ -1,10 +1,17 @@
 @import 'variable';
+@import 'fonts';
 
-body {
+#app {
     padding: 0;
     margin: 0;
-    font-family: $font;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
+    font-family: $font-Montserrat;
+    font-size: $font-default-size;
+}
+
+#content-body {
+    padding-top:70px;
+}
+
+hr {
+    border:$border-default;
 }

@@ -1,0 +1,28 @@
+@mixin getFont($name, $bold: false, $italic: false) {
+    $font-path: '~@/assets/fonts/#{$name}/#{$name}';
+    $font-url: '';
+    font-weight: normal;
+    font-style: normal;
+
+    @if $bold {
+        $font-url: '#{$font-path}-Bold.ttf';
+        font-weight: bold;
+        font-style: normal;
+
+        @if $italic {
+            $font-url: '#{$font-path}-BoldItalic.ttf';
+            font-style: italic;
+        }
+
+    } @else {
+        $font-url: '#{$font-path}-Regular.ttf';
+
+        @if $italic {
+            $font-url: '#{$font-path}-Italic.ttf';
+            font-style: italic;
+        }
+    }
+
+    font-family: $name;
+    src: url($font-url) format('truetype');
+}

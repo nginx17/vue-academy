@@ -19,3 +19,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# Server ignore
+/server/node_modules
+/server/package-lock.json
