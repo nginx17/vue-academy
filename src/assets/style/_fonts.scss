@@ -1,0 +1,41 @@
+@import 'mixin';
+
+/** font roboto regular */
+@font-face {
+    @include getFont(Roboto, false, false);
+}
+
+/** font roboto regular italic */
+@font-face {
+    @include getFont(Roboto, false, true);
+}
+
+/** font roboto bold */
+@font-face {
+    @include getFont(Roboto, true, false);
+}
+
+/** font roboto bold italic */
+@font-face {
+    @include getFont(Roboto, true, true);
+}
+
+/** font Montserrat regular */
+@font-face {
+    @include getFont(Montserrat, false, false);
+}
+
+/** font Montserrat regular italic */
+@font-face {
+    @include getFont(Montserrat, false, true);
+}
+
+/** font Montserrat bold */
+@font-face {
+    @include getFont(Montserrat, true, false);
+}
+
+/** font Montserrat bold italic */
+@font-face {
+    @include getFont(Montserrat, true, true);
+}

@@ -1,16 +1,21 @@
 <template>
-  <div class="home">
+  <div>
     <Heading/>
+    <Posts id="content-body"/>
   </div>
 </template>
 
 <script>
+
 import Heading from '@/components/Heading.vue'
+import Posts from '@/components/Posts.vue'
+import axios from 'axios'
 
 export default {
   name: 'home',
   components: {
-    Heading
+    Heading,
+    Posts
   }
 }
 </script>
