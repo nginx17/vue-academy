@@ -2,7 +2,7 @@
   <div class="center-container">
     <md-content class="md-elevation-3">
       <div class="title">
-        <img src="@/assets/img/logo.png">
+        <img src="@/assets/img/logo.png" alt="logo aja">
         <div class="md-title">Vue Academy</div>
       </div>
 
