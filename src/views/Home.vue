@@ -9,7 +9,6 @@
 
 import Heading from '@/components/Heading.vue'
 import Posts from '@/components/Posts.vue'
-import axios from 'axios'
 
 export default {
   name: 'home',
